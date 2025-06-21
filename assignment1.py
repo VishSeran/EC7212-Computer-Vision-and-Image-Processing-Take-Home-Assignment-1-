@@ -39,6 +39,36 @@ reduced_image = Reduce_intensity(image_gray,intensity)
 #Task 1 outputs
 cv2.imwrite(f"reduced_{intensity}_levels.png", reduced_image)
 
+intensity = int(input("Enter the intensity level you want: "))
+reduced_image = Reduce_intensity(image_gray,intensity)
+#Task 1 outputs
+cv2.imwrite(f"reduced_{intensity}_levels.png", reduced_image)
+
+intensity = int(input("Enter the intensity level you want: "))
+reduced_image = Reduce_intensity(image_gray,intensity)
+#Task 1 outputs
+cv2.imwrite(f"reduced_{intensity}_levels.png", reduced_image)
+
+intensity = int(input("Enter the intensity level you want: "))
+reduced_image = Reduce_intensity(image_gray,intensity)
+#Task 1 outputs
+cv2.imwrite(f"reduced_{intensity}_levels.png", reduced_image)
+
+intensity = int(input("Enter the intensity level you want: "))
+reduced_image = Reduce_intensity(image_gray,intensity)
+#Task 1 outputs
+cv2.imwrite(f"reduced_{intensity}_levels.png", reduced_image)
+
+intensity = int(input("Enter the intensity level you want: "))
+reduced_image = Reduce_intensity(image_gray,intensity)
+#Task 1 outputs
+cv2.imwrite(f"reduced_{intensity}_levels.png", reduced_image)
+
+intensity = int(input("Enter the intensity level you want: "))
+reduced_image = Reduce_intensity(image_gray,intensity)
+#Task 1 outputs
+cv2.imwrite(f"reduced_{intensity}_levels.png", reduced_image)
+
 
 #Task 2: perform a simple spatial 3x3, 10x10 and 20x20 average of image pixels
 average_3 = Average_of_image(image1 ,3)
@@ -62,7 +92,15 @@ cv2.imwrite("rotated_90_degree.png", angle90)
 block_3 = block_average(image1, 3)
 block_5 = block_average(image1, 5)
 block_7 = block_average(image1, 7)
+
+block_3_gray = block_average(image_gray, 3)
+block_5_gray = block_average(image_gray, 5)
+block_7_gray = block_average(image_gray, 7)
 #Task 4 outputs
 cv2.imwrite("block_3.png", block_3)
 cv2.imwrite("block_5.png", block_5)
 cv2.imwrite("block_7.png", block_7)
+
+cv2.imwrite("block_3_gray.png", block_3_gray)
+cv2.imwrite("block_5_gray.png", block_5_gray)
+cv2.imwrite("block_7_gray.png", block_7_gray)
